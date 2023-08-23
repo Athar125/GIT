@@ -33,4 +33,14 @@ for (let i = 1; i <= arr1.length; i++) {
     }
 }
 
-console.log("ATHAR");
+// Implement a program that uses a loop to iterate through an array of 
+// numbers and remove all the even numbers from them and just leave the odd ones
+
+let arr2:number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11];
+ let arrOfOddNumbers:number[] = [];
+ for (let i:number = 0; i < arr2.length; i++){
+     if (arr2[i] % 2 !== 0){
+         arrOfOddNumbers.push(arr2[i]);
+     }
+ }
+ console.log(arrOfOddNumbers);
