@@ -46,3 +46,16 @@ function areaOfCircle(radius) {
 }
 let area = areaOfCircle(6);
 console.log(`Area of circle : ${area}`);
+// Write a program that uses a function to find the largest element in an array of numbers.
+let arr = [15, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let largest = arr[0];
+function largestElement(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > largest) {
+            largest = arr[i];
+        }
+    }
+    return largest;
+}
+let largestNumber = largestElement(arr);
+console.log(`Largest Number: ${largestNumber}`);

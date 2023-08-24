@@ -55,3 +55,19 @@ let arr2:number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11];
  }
  let area:number = areaOfCircle(6);
  console.log(`Area of circle : ${area}`)
+
+ // Write a program that uses a function to find the largest element in an array of numbers.
+
+ let arr:number[] = [15, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let largest:number = arr[0];
+function largestElement(arr:number[]){
+    for (let i:number = 0; i < arr.length; i++){
+        if (arr[i] > largest){
+            largest = arr[i]
+        }
+    }
+    
+    return largest;
+}
+let largestNumber:number = largestElement(arr);
+console.log(`Largest Number: ${largestNumber}`);
