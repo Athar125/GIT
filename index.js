@@ -37,3 +37,12 @@ for (let i = 0; i < arr2.length; i++) {
     }
 }
 console.log(arrOfOddNumbers);
+// Write a program that defines a function to calculate the area of a circle. 
+// The function should take the radius as input and return the calculated area.
+function areaOfCircle(radius) {
+    const pi = 3.1416;
+    let area = Math.floor(pi * radius ** 2);
+    return area;
+}
+let area = areaOfCircle(6);
+console.log(`Area of circle : ${area}`);
