@@ -1,6 +1,6 @@
 // Develop a program that reads a list of grades and uses the splice method to 
 // remove failing grades (below 50) from the array
-
+/*
 function removeGrade(gradeArray:number[]){
     for(var i=1; i<=gradeArray.length; i++){
          if(gradeArray[i-1]<50){
@@ -71,3 +71,4 @@ function largestElement(arr:number[]){
 }
 let largestNumber:number = largestElement(arr);
 console.log(`Largest Number: ${largestNumber}`);
+*/
