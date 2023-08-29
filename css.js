@@ -50,7 +50,4 @@ let updateArray = numbers.filter((data) =>{
 })
 console.log(updateArray);
 */
-let names = ["a", "b", "c"];
-names.forEach((data) => {
-    console.log('Your class will be on sunday $[data]');
-});
+// end
