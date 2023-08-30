@@ -50,4 +50,7 @@ let updateArray = numbers.filter((data) =>{
 })
 console.log(updateArray);
 */
-// end
+let arrayOfNames = ["AZHAR", "ATHAR", "AFTAB", "SAHIL", "MEHTAB"];
+arrayOfNames.forEach(names => {
+    console.log([`${names}!`]);
+});
