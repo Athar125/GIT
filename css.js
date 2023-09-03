@@ -1,5 +1,5 @@
-"use strict";
 // 27/08/2023
+export {};
 // map => return same lenght array
 // filter => return same lenght or less
 // forEach => return nothing
@@ -157,10 +157,17 @@ type CarType = {
     color: string,
 }
 */
+/*
 let car = {
     brand: "HONDA",
     race: () => {
-        console.log("RACING");
+        console.log("RACING")
+
     }
-};
-car.race();
+}
+car.race()
+*/
+// npm
+// inquierer.js
+//  npm install inquirer
+// npm install bootstrap

@@ -179,3 +179,8 @@ let car = {
 }
 car.race()
 */
+
+// npm
+// inquierer.js
+//  npm install inquirer
+// npm install bootstrap
