@@ -55,13 +55,13 @@ let updateArray = numbers.filter((data) =>{
 console.log(updateArray);
 */
 
-
+/*
 let arrayOfNames : string[] = ["AZHAR", "ATHAR", "AFTAB", "SAHIL", "MEHTAB"];
   arrayOfNames.forEach(names => {
     console.log([`Your class will be held tonight ${names}!`])
   })
   
-
+*/
 // end
 
   
