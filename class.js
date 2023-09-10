@@ -41,4 +41,67 @@ function printInFunction() {
 
  }, 3000 );
 
-  */ 
+    
+ let car = {
+    model: "Civic",
+    brand: "Honda",
+ };
+ 
+
+  class Car {
+    model: string = ""
+    brand: string = ""
+  }
+
+  let car = new Car();
+
+  car.brand = "BMW";
+  car.model = "M4 Competition";
+  console.log("car", car);
+
+  let car2 = new Car();
+  car2.brand = "Honda";
+  car2.model = "Civic";
+  console.log("car2", car);
+
+
+class Car {
+    model: string = "";
+    brand: string = "";
+    year: number = 0;
+    
+    constructor(_model:string, _brand:string, _year:number){
+        this.model = _model;
+        this.brand = _brand;
+        this.year = _year;
+    }
+  }
+  let newCar = new Car("S Class", "Mercedes", 2023);
+  let newCar2 = new Car("ABL", "Audi", 2015);
+
+  console.log(newCar);
+  console.log(newCar2);
+  
+
+  class Teacher {
+    name:string =""
+    age: number = 0;
+    salary:number = 0;
+    grade: string = "";
+    constructor(_name:string, _age: number, _salary:number, _grade: string){
+        this.name = _name;
+        this.age = _age;
+        this.salary = _salary;
+        this.grade = _grade;
+    }
+  }
+  let classTeacher = new Teacher ("Athar", 29, 50000, "A");
+  console.log(classTeacher);
+  */
+// const date = new Date();
+// date.getDay()
+// function promiseFunc(resolve:, reject:){
+// internet code
+// const randomNumber: number = Math.random()
+// console.log("randomNumber", randomNumber)
+// }
